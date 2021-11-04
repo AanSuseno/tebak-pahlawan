@@ -8,6 +8,7 @@
 	<script type="text/javascript" src="jquery.min.js"></script>
 </head>
 <body>
+	<p id="peringatan">Browser anda belum mendukung. Silakan gunakan Google Chrome, Mozila Firefox, dan Opera versi terbaru :).</p>
 	<!-- sambutan -->
 	<div class="container" id="splash">
 		<div class="bendera" id="bendera-merah"></div>
@@ -24,7 +25,27 @@
 	</div>
 
 	<div class="container" id="game">
-		<img src="">
+		<img src="gambar/00.jpg" class="gambarPahlawan" id="gambarPahlawan" title="gambar seorang pahlawan Indonesia">
+		<div id="tombolPilih">
+			<div class="tombol pilihTombol" id="atas">Jenderal Sudirman</div>
+			<div class="tombol pilihTombol" id="bawah">Sutomo</div>
+		</div>
+	</div>
+	<div id="detik"></div>
+
+	<!-- jeda -->
+	<div class="container" id="jeda">
+		<center id="ucapanJeda"></center>
+		<div id="tombolLanjut" class="tombol">Lanjut</div>
+	</div>
+
+	<!-- selesai -->
+	<div class="container" id="selesai">
+		<center>
+			<p>Kamu mendapat skor: <span id="selesaiSkor">0</span></p>
+			<p>Sayangnya game ini sudah selesai. Kamu bisa mengembangkannya dengan mengunjungi <a href="https://github.com/AanSuseno/tebak-pahlawan">link github</a> atau hubungi saya melalui <a href="https://wa.me/6285222278081">WhatsApp</a> dan <a href="https://t.me/AanSuseno">Telegram</a></p>
+			<p>Maturnuwun wis mampir :)</p>
+		</center>
 	</div>
 
 	<!-- js -->

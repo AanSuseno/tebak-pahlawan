@@ -69,8 +69,58 @@ body {
 	left: 50%;
 	transform: translateX(-50%);
 	bottom: 20vmin;
+	display: none;
 }
 
 #perkenalan {
 	display: none;
+}
+
+#game {
+	display: none;
+	position: absolute;
+	margin-top: 50px;
+	height: 90vh;
+}
+
+.gambarPahlawan {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 90%;
+	max-width: 300px;
+}
+
+#tombolPilih {
+	position: absolute;
+	display: flex;
+	flex-wrap: wrap;
+	bottom: 0;
+	left: 0;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.pilihTombol {
+	margin: 10px;
+	width: 80%;
+}
+
+#detik {
+	width: 100vw;
+	left: 0vw;
+	height: 1vh;
+	background: var(--kuning);
+	display: none;
+}
+
+#jeda, #selesai {
+	display: none;
+}
+
+#tombolLanjut {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 10vh;
 }
